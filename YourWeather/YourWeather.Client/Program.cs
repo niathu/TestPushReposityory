@@ -17,3 +17,4 @@ builder.Services.AddScoped<IGeolocationService,GeolocationService>();
 builder.Services.AddCustomIOC();
 
 await builder.Build().RunAsync();
+

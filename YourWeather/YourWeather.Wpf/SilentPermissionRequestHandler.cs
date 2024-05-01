@@ -4,7 +4,7 @@ namespace YourWeather.Wpf
 {
     public class SilentPermissionRequestHandler : IPermissionRequestHandler
     {
-        private static readonly Uri BaseUri = new("https://0.0.0.0");
+        private static readonly Uri BaseUri = new Uri("https://0.0.0.0");
 
         public void OnPermissionRequested(CoreWebView2 sender, CoreWebView2PermissionRequestedEventArgs args)
         {

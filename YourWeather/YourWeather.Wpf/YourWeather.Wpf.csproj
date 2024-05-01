@@ -2,9 +2,9 @@
 
 	<PropertyGroup>
 		<OutputType>WinExe</OutputType>
-		<TargetFramework>net7.0-windows</TargetFramework>
+		<TargetFramework>net7.0-windows7.0</TargetFramework>
 		<Nullable>enable</Nullable>
-		<UseWPF>true</UseWPF>
+		<UseWPF>True</UseWPF>
 		<RootNamespace>YourWeather.Wpf</RootNamespace>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<ApplicationIcon>Resources\favicon.ico</ApplicationIcon>
@@ -13,6 +13,8 @@
 		<PublishSingleFile>true</PublishSingleFile>
 		<SelfContained>true</SelfContained>
 		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+		<UseWindowsForms>False</UseWindowsForms>
+		<SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
